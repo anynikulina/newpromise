@@ -1,0 +1,153 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+
+html {
+  height: 100%;
+  background-color: black;
+}
+
+#root {
+  text-align: center;
+  background-color: black;
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.contact-form {
+  display: flex;
+  /* flex-flow: column wrap; */
+  flex-direction: column;
+  align-items: center;
+}
+
+.menuItem {
+  color: white;
+  background-color: gray;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  text-decoration: none;
+  text-align: center;
+  /* color: #CED0D2; */
+}
+
+.menuItem svg {
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.menuItem.active {
+  background-color: orange;
+}
+
+.home-page {
+  color: black;
+  background-color: black;
+  /* height: calc(100vh - 60px); */
+}
+
+.anna-picture {
+  position: relative;
+  z-index: 2;
+}
+
+.coaching-button {
+  position: relative;
+  z-index: 2;
+  top: 450px;
+  left: 950px;
+
+}
+
+.home-page-text {
+  top: 300px;
+  left: 600px;
+}
+
+.orange-line {
+  width: 200px;
+  height: 0;
+  border-bottom: 100vh solid orange;
+  border-right: 300px solid transparent;  
+}
+
+.feedback-page {
+  /* background-image: url('./assets/images/anna_py.JPG');
+  background-color: #cccccc; */
+  height: calc(100vh - 60px);
+  color: black;
+}
+
+.Navigation {
+  /* padding: 20px; */
+  /* height: 20px; */
+  /* text-align: right; */
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  right: 0;
+  top: 25%;
+  /* justify-content: flex-end; */
+  background: black;
+  gap: 30px
+}
+
+/* .navigation-item {
+  margin-left: 10px;
+} */
+
+.feedback-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.feedback-item {
+  text-align: right;
+  display: flex;
+  flex-direction: column;
+}
+
+.input-email {
+  width: 598px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
