@@ -7,16 +7,12 @@ const Home = () => {
   // const showForm = () => setIsEnabled(!isEnabled);
   return (
     <div className="home-container">
-      <div className="orange-line">
-        <div className="home-page-text">
-          {/* <Button variant="contained" onClick={showForm}>Request for coaching</Button> */}
-          {/* {isEnabled ?  <RequestForm /> : null} */}
+      <div className="left-section">
+        <div className="orange-line">
         </div>
+        <img src={Anya} className="anna-picture" alt="Girl in a jacket"/>
       </div>
       <div className="right-section">
-        <p>
-          <img src={Anya} className="anna-picture" alt="Girl in a jacket" width="500" height="600" />
-        </p>
         <div className="content-home-page">
           <h1>
           </h1>

@@ -14,7 +14,6 @@ html {
 }
 
 #root {
-  text-align: center;
   background-color: black;
 }
 
@@ -78,16 +77,15 @@ html {
   /* height: calc(100vh - 60px); */
 }
 
-.anna-picture {
+.left-section {
   position: relative;
-  z-index: 2;
+}
+
+.anna-picture {
+  position: absolute;
 }
 
 .coaching-button {
-  position: relative;
-  z-index: 2;
-  top: 450px;
-  left: 950px;
 
 }
 
@@ -101,6 +99,11 @@ html {
   height: 0;
   border-bottom: 100vh solid orange;
   border-right: 300px solid transparent;  
+}
+
+.right-section {
+  flex-grow: 1;
+  position: relative;
 }
 
 .feedback-page {
